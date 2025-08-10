@@ -16,11 +16,13 @@ body {
 
 .navbar {
   background-color: #000;
+  position: fixed;
   color: #fff;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .navbar .logo {
@@ -265,7 +267,7 @@ display: inline;
 }
 
 .Text-2{
- margin-left: 160px;
+ margin-left: 165px;
 }
 
 .s img{
@@ -277,7 +279,7 @@ display: inline;
 }
 
 .Text-3{
-  margin-left: 140px;
+  margin-left: 145px;
 }
 
 .h img{
@@ -289,7 +291,7 @@ display: inline;
 }
 
 .Text-4{
-  margin-left: 158px;
+  margin-left: 160px;
 }
 
 .crds{
@@ -946,4 +948,22 @@ margin-left: 90px;
     .footer-logo {
         font-size: 28px;
     }
+}
+
+/* Responsive Styles */
+@media (max-width: 1351px) {
+  main {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 1351px;
+  }
+  aside {
+    margin-top: 1rem;
+    width: 1351px;
+  }
+  header, footer {
+    padding: 0.5rem;
+     width: 1351px;
+  }
 }
