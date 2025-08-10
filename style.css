@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   /* border: 5px solid red; */
-  max-width: 1351px;
+  /* max-width: 1351px; */
 }
 
 body {
@@ -655,7 +655,7 @@ a.link:hover {
   height: 250px;
   border-radius: 7px;
   /* flex: 1 1 calc(25% - 20px); */
-  margin-left: 190px;
+  margin-left: 175px;
     margin-top: 20px;
 }
 
@@ -674,7 +674,7 @@ margin-left: 190px;
   height: 250px;
   border-radius: 7px;
   /* flex: 1 1 calc(25% - 20px); */
-  margin-left: 10px;
+  margin-right: 80px;
     margin-top: 20px;
 }
 
