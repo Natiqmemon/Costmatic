@@ -364,7 +364,7 @@ margin-left: 25px;
 .crd2{
   /* padding: 20px; */
   /* text-align: center; */
-  background-color: orange;
+  background-color: rgb(255, 204, 108);
   width: 400px;
   height: 300px;
   /* flex: 1 1 calc(25% - 20px); */
@@ -386,7 +386,7 @@ margin-left: -40px;
 }
 
 .bth2 button {
-    background-color:orange;
+    background-color:rgb(255, 204, 108);
     width: 100px;
     padding: 10px 10px;
      border:3px solid #000;
